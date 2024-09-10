@@ -16,7 +16,7 @@ export default function CameraScreen() {
   const [locationName, setLocationName] = useState('');
 
   
-  const GOOGLE_API_KEY = 'AIzaSyB3Wh-apbtTuF08gn_cgq67G9HeE6fZTMs';
+  const GOOGLE_API_KEY = '';
 
   // Función para obtener el nombre de la ubicación con Google Geocoding API
 const getLocationName = async (latitude, longitude) => {
